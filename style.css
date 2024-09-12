@@ -37,6 +37,9 @@ body{
     color: white;
     padding: 10px;
 }
+.navbar #hideicon{
+        display: none;
+    }
 .navbar .li2:hover,.li3:hover,.li4:hover,.li5:hover{
     color: orangered;
 }
@@ -431,6 +434,10 @@ margin-bottom: 10%;
     body{
         overflow-x: hidden;
         width: 100%;
+    }
+    .navbar #hideicon{
+        display: block;
+        padding-right: 30%;
     }
     .navbar ul{
         display: none;
