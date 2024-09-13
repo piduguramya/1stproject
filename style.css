@@ -545,3 +545,122 @@ margin-bottom: 10%;
         padding-left: 35%;
      }
 }
+@media (max-width: 375px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .navbar #hideicon{
+        display: block;
+        padding-right: 30%;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .hero-section {
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .hero-section h1,
+    .hero-section p {
+        font-size: 1.5rem;
+    }
+    .main1 {
+        width: 100%;
+        flex-direction: column; /* Stack elements vertically */
+        gap: 10px; /* Reduce gap between elements */
+        padding: 2%; /* Adjust overall padding */
+    }
+    .main1b{
+        margin-bottom: 100px;
+    }
+    .img1AA{
+        display: none;
+    } 
+    .img1BB{
+        display: none;
+    }
+    .main1b {
+        padding-left: 2%; /* Adjust left padding */
+        padding-right: 2%; /* Adjust right padding */
+        width: 90%;
+    }
+    .btn {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Reduce gap between buttons */
+        margin-left: 10%;
+        
+    }
+    .main3{
+        margin-top: 100%;
+        margin-top: 120%;
+    }
+    .cards3,.cards4 {
+        width: 100%; /* Full width on mobile */
+        flex-direction: column;
+    }
+    .card0,.card1,.card2{
+        margin-left: 15%;
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+    .card4--1,.card4-2,.card4-3{
+        margin-left: 15%;
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+    .main5{
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Full width on mobile */
+    }
+    .text5,.login5{
+        margin-left: 15%;
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+    .cntrn3-f,.cntrn1-f,.cntrn2-f,.cntrn4-f{
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+    .text-f{
+        width: 70%;
+        height: 100%;
+    }
+    .icns4{
+        margin-bottom: 10%;
+    }
+    .cards6{
+        flex-direction: column;
+        width: 100%; /* Full width on mobile */
+    }
+    .card6-1,.card6-2,.card6-3,.card6-4{
+        margin-left: 15%;
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+     .footer{
+        flex-direction: column;
+        width: 100%; /* Full width on mobile */
+        padding-left: 30%;
+     }
+     #ftr input{
+        width: 40vw !important;
+     }
+     #ftr button{
+        width: 20vw !important;
+        margin-top: 70% !important;
+
+     } 
+}
